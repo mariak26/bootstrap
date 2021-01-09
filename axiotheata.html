@@ -1,0 +1,145 @@
+<html><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>bootstrqap example</title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<style>
+.card{
+min-height:390px;
+} 
+#img{
+width:100%;
+cursor:pointer;
+}
+img{
+width:100%
+}
+#myimg{
+width:100%
+}
+</style>
+<!--
+<script>
+  $(document).ready(function(){
+      $("img").click(function(){
+         $("#myimg").attr("src",$(this).attr('src'));
+         $("#exampleModalCenter").modal("show");
+      });
+  });
+</script>
+-->
+</head>
+<body class="" style="">
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="index.html">Αρχική</a>
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="axiotheata.html">Αξιοθέατα</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="protaseis.html">Προτάσεις</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="pshagogia.html">Ψυχαγωγία</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-4 col">
+          <div class="card mb-4 shadow-sm">
+            <img src="images/rotonta.jpg">
+            <div class="card-body">
+              <p class="card-text">H Ροτόντα είναι θολωτό στρογγυλό κτίσμα του 4ου αιώνα στη Θεσσαλονίκη, όμοιο με το Πάνθεον της Ρώμης, και προοριζόταν για ναός του Διός. </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="images/dimitrios.jpg">
+            <div class="card-body">
+              <p class="card-text">Ο Ναός του Αγίου Δημητρίου είναιπεντάκλιτη βασιλική του «ελληνιστικού τύπου»  αλλά με πολλά ιδιαίτερα και σπάνια χαρακτηριστικά σε σχέση με άλλους ναούς της ίδιας περιόδου στην Ελλάδα.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="images/pirgos.jpg">
+            <div class="card-body">
+              <p class="card-text">Ο Λευκός Πύργος της Θεσσαλονίκης είναι οχυρωματικό έργο οθωμανικής κατασκευής του 15ου αιώνα.  </p>
+             </div>
+          </div>
+        </div>
+		</div>
+		<div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="images/nikolaos.jpg">
+            <div class="card-body">
+              <p class="card-text">Άγιος Νικόλαος Ορφανός. Ένας ναός κρυμμένος στην Άνω Πόλη με μοναδικές και σπάνιες τοιχογραφίες και αρχιτεκτονική. Μοναδική τεχνοτροπία και ποιότητα! </p>
+              
+            </div>
+          </div>
+        </div>
+		
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="images/kamara.jpg">
+            <div class="card-body">
+              <p class="card-text">Η Αψίδα του Γαλεριου γνωστή ως "Καμάρα" είναι από τα πιο ιστορικά και αναγνωρίσιμα μνημεία της Θεσσαλονίκης. </p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+		  <img src="images/kastra.jpg">
+            
+            <div class="card-body">
+              <p class="card-text">Τα Κάστρα της Θεσσαλονίκης είναι ένα σύμπλεγμα τειχών, πύργων και οχυρώσεων με μοναδική αρχαιολογική, αρχιτεκτονική και ιστορική σημασία.  </p>
+              
+            </div>
+          </div>
+        </div>
+</div>
+</div>
+</div>
+ <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+         <img id="myimg" src="images/rotonta.jpg">
+      </div>
+        </div>
+  </div>
+</div>       
+</body>
+</html>
